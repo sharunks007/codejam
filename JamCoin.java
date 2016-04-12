@@ -99,7 +99,6 @@ class JamCoin {
 		digits[0] = digits[n-1] = 1;
 		Coin tempCoin = new Coin(digits,n);
 		if(isJamCoin(tempCoin)) c.add(tempCoin);
-		//tempCoin.print();
 
 		while(tempCoin.hasNext()) {
 			tempCoin = tempCoin.next();
