@@ -21,14 +21,6 @@ int main(int argc, char const *argv[])
 		else
 		cout<<"case #"<<i+1<<": "<<r[i]<<endl;
 	}
-
-	/*	
-	for(int i=1;i<200;i++) {
-		cout<<i<<" "<<solve(i)<<endl;
-	}
-	*/
-	
-
 	return 0;
 
 }

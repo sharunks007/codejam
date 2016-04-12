@@ -3,6 +3,7 @@
 
 using namespace std;
 
+//Works for both small and large inputs
 
 int solve(char*);
 void flip(char*,int);
@@ -33,18 +34,14 @@ int solve(char s[101]) {
 		nexti = j;
 	}
 	if(s[0]=='-') { flip(s,n-1); flips--;}
+	//cout<<s<<" ";
 	return flips;
 }
 
 void flip(char s[101],int n) {
 	char t[101];
 	int i;
-	for(i=0;i<=n;i++) {
-		switch(s[i]) {
-			case '-': t[i] = '+'; break;
-			case '+': t[i] = '-'; break;
-		}	
-	} 
+	for(i=0;i<=n;i++) t[i] = s[i] == '+' ? '-' : '+';
 	t[i] = '\0';
 	strrev(t);
 	for(i=0;i<=n;i++) s[i] = t[i];
