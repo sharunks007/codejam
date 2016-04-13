@@ -4,6 +4,8 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	ofstream opfile = new ofstream("output.txt");
+	ofstream opfile;
+	opfile.open("output.txt");
+	opfile<<"Hello world!\n";
 	return 0;
 }
