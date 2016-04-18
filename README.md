@@ -1,5 +1,5 @@
 # Code Jam 2016
-My attempt on Google Code Jam 2016
+My attempt at Google Code Jam 2016
 
 [Counting Sheep](https://code.google.com/codejam/contest/6254486/dashboard): sheep.cpp, sheep-large.cpp
 
