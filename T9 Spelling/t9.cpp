@@ -18,12 +18,13 @@ int main(int argc, char const *argv[])
 		string str;
 		string op = "";
 		//cin>>str;
-		getline(str);
+		getline(cin, str);
 		string prev_find;
 		F0(j,str.length()) {
 			F0(k,10) {
 				int found = kbd[k].find(str[j]);
 				if(found >= 0) {
+					if(*op.rbegin() == (char)('0'+k)) op+= ' ';
 					F0(l,found+1) op += (char)('0' + k);
 					break;
 				}
