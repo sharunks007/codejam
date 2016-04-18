@@ -5,13 +5,18 @@ My attempt on Google Code Jam 2016
 
 [Revenge of the Pancakes](https://code.google.com/codejam/contest/6254486/dashboard#s=p1): pcake.cpp
 
+[The Last Word](https://code.google.com/codejam/contest/4304486/dashboard#s=p0): lastword.cpp
+
+[Rank and File](https://code.google.com/codejam/contest/4304486/dashboard#s=p1): rankfile.cpp
+
 ##Practice Problems
 
-[Minimum Scalar Product](https://code.google.com/codejam/contest/32016/dashboard#s=p0) (2008): MinScalar.java, MinScalarLarge.java
+[Minimum Scalar Product](https://code.google.com/codejam/contest/32016/dashboard#s=p0): MinScalar.java, MinScalarLarge.java
 
-[Store Credit](https://code.google.com/codejam/contest/351101/dashboard#s=p0) (2010): credit.java
+[Store Credit](https://code.google.com/codejam/contest/351101/dashboard#s=p0): credit.java
 
-[Reverse Words](http://code.google.com/codejam/contest/351101/dashboard#s=p1) (2010): RevWords.java
+[T9 Spelling](https://code.google.com/codejam/contest/351101/dashboard#s=p2):T9.java
 
-[Rope Intranet](http://code.google.com/codejam/contest/619102/dashboard#s=p0) (2010): intranet.cpp
+[Reverse Words](http://code.google.com/codejam/contest/351101/dashboard#s=p1): RevWords.java
 
+[Rope Intranet](http://code.google.com/codejam/contest/619102/dashboard#s=p0): intranet.cpp
