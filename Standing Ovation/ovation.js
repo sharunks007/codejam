@@ -1,5 +1,7 @@
 var fs = require('fs');
 
+if (!process.argv[2]) process.argv[2] = "sample.txt";
+
 var input = fs.readFileSync(process.argv[2], "utf-8");
 
 input = input.split('\n');
