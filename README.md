@@ -3,25 +3,37 @@ My attempt at Google Code Jam 2016
 
 .js files require [Node JS](https://nodejs.org/en/) runtime to work.
 
-[Counting Sheep](https://code.google.com/codejam/contest/6254486/dashboard): sheep.cpp, sheep-large.cpp
+1. [Counting Sheep](https://code.google.com/codejam/contest/6254486/dashboard):
+	- Small Input: [sheep.cpp](./Counting Sheep/sheep.cpp)	`` sheep [< sheep-small.in] ``
+	- Large Input: [sheep-large.cpp](./Counting Sheep/sheep-large.cpp)	``sheep-large [< sheep-large.in]``
 
-[Revenge of the Pancakes](https://code.google.com/codejam/contest/6254486/dashboard#s=p1): pcake.cpp
+2. [Revenge of the Pancakes](https://code.google.com/codejam/contest/6254486/dashboard#s=p1):
+	- Any Input: [pcake.cpp](./Revenge of the Pancakes/pcake.cpp)	``pcake [< pcake-small.in | < pcake-large.in]``
 
-[The Last Word](https://code.google.com/codejam/contest/4304486/dashboard#s=p0): lastword.cpp
+3. [The Last Word](https://code.google.com/codejam/contest/4304486/dashboard#s=p0):
+	- Any Input: [lastword.cpp](./The Last Word/lastword.cpp)	``lastword [< lastword-small.in | < lastword-large.in]``
 
-[Rank and File](https://code.google.com/codejam/contest/4304486/dashboard#s=p1): rankfile.cpp
+4. [Rank and File](https://code.google.com/codejam/contest/4304486/dashboard#s=p1):
+	- Any Input: [rankfile.cpp](./Rank and File/rankfile.cpp)	``rankfile [< rankfile-small.in | < rankfile-large.in]``
 
 ##Practice Problems
 
-[Minimum Scalar Product](https://code.google.com/codejam/contest/32016/dashboard#s=p0): MinScalar.java, MinScalarLarge.java
+1. [Minimum Scalar Product](https://code.google.com/codejam/contest/32016/dashboard#s=p0): 
+	- Small Input: [MinScalar.java](./Minimum Scalar Product/MinScalar.java)	``java MinScalar [< min-scalar-small.in]``
+	- Large Input: [MinScalarLarge.java](./Minimum Scalar Product/MinScalarLarge.java)	``java MinScalarLarge [< min-scalar-large.in]``
 
-[Store Credit](https://code.google.com/codejam/contest/351101/dashboard#s=p0): credit.java
+2. [Store Credit](https://code.google.com/codejam/contest/351101/dashboard#s=p0):
+	- Any Input: [credit.cpp](./Store Credit/credit.cpp)	``credit [< credit-small.in | < credit-large.in]``
 
-[T9 Spelling](https://code.google.com/codejam/contest/351101/dashboard#s=p2):T9.java, T9.cpp
+3. [T9 Spelling](https://code.google.com/codejam/contest/351101/dashboard#s=p2):
+	- Java Solution (Any Input): [T9.java](./T9 Spelling/T9.java)	``java T9 [< T9-small.in | < T9-large.in]``
+	- C++ Solution: (Any Input): [T9.cpp](./T9 Spelling/T9.cpp)	``T9 [< T9-small.in | < T9-large.in]``
 
-[Reverse Words](http://code.google.com/codejam/contest/351101/dashboard#s=p1): RevWords.java
+4. [Reverse Words](http://code.google.com/codejam/contest/351101/dashboard#s=p1):
+	- Any Input: [RevWords.java](./Reverse Words/RevWords.java)	``java RevWords [< revwords-small.in | < revwords-large.in]``
 
-[Rope Intranet](http://code.google.com/codejam/contest/619102/dashboard#s=p0): intranet.cpp
+5. [Rope Intranet](http://code.google.com/codejam/contest/619102/dashboard#s=p0):
+	- Any Input: [intranet.cpp](./Rope Intranet/intranet.cpp) ``intranet [< intranet-small.in | < intranet-large.in]``
 
-[Standing Ovation](https://code.google.com/codejam/contest/6224486/dashboard): ovation.js
-
+6. [Standing Ovation](https://code.google.com/codejam/contest/6224486/dashboard):
+	- Any Input: [ovation.js](./Standing Ovation/ovation.js)	``node ovation [ovation-small.in | ovation-large.in]`` (does not require file redirection)
