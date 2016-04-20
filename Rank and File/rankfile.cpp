@@ -1,6 +1,6 @@
 #include <iostream>
 
-#define FOR(i,n) for (int i = 0; i < n; ++i)
+#define FOR(i,n) for (i = 0; i < n; ++i)
 
 using namespace std;
 
@@ -11,9 +11,7 @@ int main(int argc, char const *argv[])
 	cin>>t;
 	int mem[2501];
 	FOR(tt,t) {
-		FOR(k,2501) {
-			mem[k] = 0;
-		}
+		FOR(k,2501) mem[k] = 0;
 		cin>>n;
 		FOR(i,2*n-1) {
 			FOR(j,n) {
